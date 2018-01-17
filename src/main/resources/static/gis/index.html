@@ -229,7 +229,7 @@
             var objLoader = new THREE.OBJLoader();
             objLoader.setMaterials(materials);
             objLoader.setPath('./');
-            objLoader.load('lab_524_zuizhong.obj', function(object) {
+            objLoader.load('815_min_2.obj', function(object) {
                 object.traverse(function(child){
                     if (child instanceof THREE.Mesh){
                         child.material.side = THREE.DoubleSide;
